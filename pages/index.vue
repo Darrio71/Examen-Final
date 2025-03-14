@@ -12,6 +12,7 @@
     <div class="image-container">
       <img src="/images/Manzana.jpeg" alt="Imagen de inicio de sesión" />
     </div>
+    
   </div>
 </template>
 
