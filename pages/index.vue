@@ -8,11 +8,11 @@
         <button type="submit">Ingresar</button>
       </form>
       <p v-if="error" class="error">{{ error }}</p>
+      <p class="register-link">¿No tienes una cuenta? <router-link to="/registro">Crea una aquí</router-link></p>
     </div>
     <div class="image-container">
       <img src="/images/Manzana.jpeg" alt="Imagen de inicio de sesión" />
     </div>
-    
   </div>
 </template>
 
@@ -97,6 +97,21 @@ button:hover {
   margin-top: 10px;
 }
 
+.register-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.register-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
 .image-container {
   margin-left: 50px;
   display: flex;
@@ -111,3 +126,4 @@ button:hover {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 </style>
+
