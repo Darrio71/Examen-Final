@@ -9,7 +9,7 @@
 </template>
 
 <script setup>
-import NavBar from "@/components/NavBar.vue";
+import NavBar from "@/components/Navbar.vue";
 import { useRoute } from "vue-router";
 import { computed } from "vue";
 
