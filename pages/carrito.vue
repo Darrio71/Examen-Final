@@ -41,12 +41,13 @@
   </script>
   
   <style>
-  .carrito-container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
+.carrito-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 50px; /* Agregado */
+}
+
   .carrito-item {
     display: flex;
     align-items: center;

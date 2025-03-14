@@ -122,5 +122,9 @@
     display: block;
     margin-bottom: 10px;
   }
+  form {
+  margin-top: 70px; /* Agregado */
+}
+
   </style>
   

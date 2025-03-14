@@ -160,15 +160,16 @@
       transform: translateY(0);
     }
   }
-  /* Estilo general del formulario */
+/* Estilo general del formulario */
 .bg-container {
   background: #f9fafb;
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 500px;
-  margin: auto;
+  margin: 75px auto 0; /* 50px desde la parte superior y centrado automáticamente */
 }
+
 
 /* Estilo de los inputs y textarea */
 .input-field {
