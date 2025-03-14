@@ -21,7 +21,7 @@
         </div>
       </div>
   
-      <router-link to="/" class="volver-btn">Volver a la tienda</router-link>
+      <router-link to="/inicio" class="volver-btn">Volver a la tienda</router-link>
     </div>
   </template>
   
